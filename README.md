@@ -1,1 +1,0 @@
-# yoshixj.github.io
