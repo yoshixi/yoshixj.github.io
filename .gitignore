@@ -8,3 +8,5 @@ npm-debug.log
 gatsby-starter-lumen.iml
 .now
 .DS_Store
+
+private/
