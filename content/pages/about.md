@@ -4,4 +4,5 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-about
+こちらをご確認ください。
+[github/yoshixj/resume](https://github.com/yoshixj/resume)
