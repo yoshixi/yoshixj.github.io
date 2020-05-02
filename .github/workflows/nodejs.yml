@@ -30,6 +30,7 @@ jobs:
     - run: yarn run test --runInBand --no-cache
       env:
         CI: true
+    - run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
     - run: gatsby build
     - uses: amondnet/now-deployment@v2
       with:
