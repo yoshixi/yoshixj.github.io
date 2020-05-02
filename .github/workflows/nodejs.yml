@@ -24,9 +24,17 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install -g yarn
+    - run: npm install -g yarn gatsby-cli
     - run: yarn install --frozen-lockfile
     - run: yarn run lint
     - run: yarn run test --runInBand --no-cache
       env:
         CI: true
+    - run: gatsby build
+    - uses: amondnet/now-deployment@v2
+      with:
+        zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
+        now-args: '--prod' #Optional
+        now-org-id: ${{ secrets.ORG_ID}}  #Required
+        now-project-id: ${{ secrets.PROJECT_ID}} #Required 
+        working-directory: ./
