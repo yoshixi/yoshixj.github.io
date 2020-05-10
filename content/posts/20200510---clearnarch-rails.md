@@ -1,6 +1,6 @@
 ---
 title: "[WIP]railsとclearn archtecture"
-date: "2020-05-10"
+date: "2020-01-01"
 template: "post"
 draft: false
 slug: "20200510-rails-with-clearn-architecture"
