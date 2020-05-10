@@ -9,4 +9,4 @@ gatsby-starter-lumen.iml
 .DS_Store
 
 private/
-public/page-data
+public/*

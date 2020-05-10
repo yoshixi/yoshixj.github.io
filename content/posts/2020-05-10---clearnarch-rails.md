@@ -1,9 +1,9 @@
 ---
 title: "[WIP]railsとclearn archtecture"
-date: "2020-04-13T06:40:32.169Z"
+date: "2020-05-10"
 template: "post"
 draft: false
-slug: "$"
+slug: "20200510-rails-with-clearn-architecture"
 category: "rails"
 tags:
   - "blog"

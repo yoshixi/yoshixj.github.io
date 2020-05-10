@@ -1,9 +1,9 @@
 ---
 title: "時間の使い方について"
-date: "2020-04-13T06:40:32.169Z"
+date: "2020-04-13"
 template: "post"
 draft: false
-slug: "$"
+slug: "20200413-time-management"
 category: "dialy"
 tags:
   - "blog"
