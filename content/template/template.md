@@ -2,7 +2,7 @@
 title: ""
 date: "2020-04-13T06:40:32.169Z"
 template: "post"
-draft: false
+draft: true
 slug: "$"
 category: "rails"
 tags:
