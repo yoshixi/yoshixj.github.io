@@ -4,9 +4,10 @@ date: "2020-01-01"
 template: "post"
 draft: false
 slug: "20200510-rails-with-clearn-architecture"
-category: "rails"
+category: "development"
 tags:
-  - "blog"
+  - "architecture"
+  - "clean-architecture"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
