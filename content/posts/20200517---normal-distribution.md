@@ -1,10 +1,10 @@
 ---
-title: "時間の使い方について"
+title: "確率勉強めも"
 date: "2020-04-13T06:40:32.169Z"
 template: "post"
 draft: true
 slug: "$"
-category: "dialy" "development" "tips"
+category: "dialy"
 tags:
   - "blog"
 description: "時間の使い方について"
