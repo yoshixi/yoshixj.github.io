@@ -2,7 +2,7 @@
 title: RailsでAPI開発環境を設定する。
 date: "2020-04-13"
 template: "post"
-draft: false
+draft: true
 slug: "rails-new"
 category: "development"
 tags:
