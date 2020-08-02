@@ -8,6 +8,8 @@
     "url": "https://github.com/iamtherealgd/gatsby-starter-22boxes-uno"
   },
   "dependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-feed": "^2.3.29",
