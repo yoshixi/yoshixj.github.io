@@ -1,4 +1,5 @@
-'use strict';
+// custom typefaces
+import "typeface-montserrat"
+import "typeface-merriweather"
 
-require('./src/assets/scss/init.scss');
-require('./static/css/prismjs/theme.min.css');
+import "prismjs/themes/prism.css"
