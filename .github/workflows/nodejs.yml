@@ -26,10 +26,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install -g yarn gatsby-cli
     - run: yarn install --frozen-lockfile
-    - run: yarn run lint
-    - run: yarn run test --runInBand --no-cache
-      env:
-        CI: true
+    # - run: yarn run lint
+    # - run: yarn run test --runInBand --no-cache
+    #  env:
+    #    CI: true
     - run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
     - run: gatsby build
     - uses: amondnet/now-deployment@v2
