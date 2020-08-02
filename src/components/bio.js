@@ -58,8 +58,8 @@ const Bio = () => {
       />
       <p style={{ marginTop: `auto`, marginBottom: `auto` }}>
         Written by <strong>{author.name}</strong> from{" "}
-        <a href="https://22boxes.com" target="blank">
-          22Boxes.com
+        <a href="https://yoshixj.com" target="blank">
+          yoshixj.com
         </a>{" "}
         <br></br>
         {` `}

@@ -1,5 +1,5 @@
 ---
-title: "[WIP]railsとclearn archtecture"
+title: "[memo]railsとclearn archtecture"
 date: "2020-01-01"
 template: "post"
 draft: false
@@ -13,7 +13,7 @@ socialImage: "/media/42-line-bible.jpg"
 ---
 
 # motivation
-最近、アーキテクチャについて関心が深まってきたので調べる。
+最近、アーキテクチャについて関心が深まってきたので調べてみoる。
 
 僕の下調べ情報によると、近年MicroServiceが流行ってきたことがあり、Rails の全部入りのMVCのようなものが適していないのではないかという話が上がっているように感じている。
 Goの薄いフレームワークが流行るのも、Micro Serviceを考えやすいからのような考察もあった。

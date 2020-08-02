@@ -11,11 +11,8 @@ const AboutPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="About" />
       <div style={{ marginTop: `30px`, fontFamily: `Montserrat` }}>
-        <h2>This is Uno.</h2>
-        First Gatsby template by{" "}
-        <a href="https://22boxes.com" target="blank">
-          22Boxes.com
-        </a>
+        <h2>this is poem</h2>
+        The correct answer is not exist.
       </div>
     </Layout>
   )

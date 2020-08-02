@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `22Boxes Template Uno`,
+    title: `yoshiki blog`,
     author: {
-      name: `Gagandeep Singh`,
-      summary: `22boxes.com`,
+      name: `Yoshiki Masubuchi`,
+      summary: `yoshixj.com`,
     },
-    description: `22Boxes Gatsby template Uno`,
-    siteUrl: `https://22boxesgatsbyuno.netlify.com/`,
+    description: `yoshiki blog`,
+    siteUrl: `https://yoshixj.com/`,
     social: {
-      twitter: `twentytwoboxes`,
+      twitter: `yoshixj`,
     },
   },
   plugins: [
@@ -67,8 +67,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `22Boxes Gatsby Uno`,
-        short_name: `22Boxes.com`,
+        name: `yoshixj blog`,
+        short_name: `yoshixj.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
