@@ -1,0 +1,92 @@
+Arguments: 
+  /Users/yoshikimasubuchi/.nodebrew/node/v12.16.2/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js
+
+PATH: 
+  /Users/yoshikimasubuchi/.gvm/bin:/Users/yoshikimasubuchi/google-cloud-sdk/bin:/Users/yoshikimasubuchi/perl5/bin:/Users/yoshikimasubuchi/.pyenv/shims:/Users/yoshikimasubuchi/.pyenv/bin:/usr/local/opt/libxml2/bin:/Users/yoshikimasubuchi/.rbenv/shims:/Users/yoshikimasubuchi/.nodebrew/current/bin:/usr/local/bin:/usr/local/opt/imagemagick@6/bin:/Users/yoshikimasubuchi/.rbenv/bin:/usr/local/opt/zplug/repos/paulirish/git-open:/usr/local/Cellar/zplug/2.4.2/bin:/Users/yoshikimasubuchi/.plenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/mysql/bin:/usr/local/opt/go/libexec/bin:/Users/yoshikimasubuchi/go/bin:/Users/yoshikimasubuchi/.ghq/github.com/flutter/flutter/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: self signed certificate
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1474:34)
+      at TLSSocket.emit (events.js:310:20)
+      at TLSSocket._finishInit (_tls_wrap.js:917:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:687:12)
+
+npm manifest: 
+  {
+    "name": "gatsby-starter-22boxes-uno",
+    "private": true,
+    "description": "A starter for a blog powered by Gatsby and Markdown",
+    "version": "0.1.0",
+    "author": "Gagandeep Singh <iamtherealgd@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/iamtherealgd/gatsby-starter-22boxes-uno"
+    },
+    "dependencies": {
+      "@babel/compat-data": "^7.11.0",
+      "@babel/core": "^7.11.0",
+      "@babel/preset-env": "^7.11.0",
+      "gatsby": "^2.19.45",
+      "gatsby-image": "^2.2.44",
+      "gatsby-plugin-feed": "^2.3.29",
+      "gatsby-plugin-google-analytics": "^2.1.38",
+      "gatsby-plugin-manifest": "^2.2.48",
+      "gatsby-plugin-offline": "^3.0.41",
+      "gatsby-plugin-react-helmet": "^3.1.24",
+      "gatsby-plugin-sharp": "^2.4.13",
+      "gatsby-plugin-typography": "^2.3.25",
+      "gatsby-remark-copy-linked-files": "^2.1.40",
+      "gatsby-remark-images": "^3.1.50",
+      "gatsby-remark-prismjs": "^3.3.36",
+      "gatsby-remark-responsive-iframe": "^2.2.34",
+      "gatsby-remark-smartypants": "^2.1.23",
+      "gatsby-source-filesystem": "^2.1.56",
+      "gatsby-transformer-remark": "^2.6.59",
+      "gatsby-transformer-sharp": "^2.3.19",
+      "prismjs": "^1.19.0",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-helmet": "^5.2.1",
+      "react-typography": "^0.16.19",
+      "typeface-merriweather": "0.0.72",
+      "typeface-montserrat": "0.0.75",
+      "typography": "^0.16.19",
+      "typography-theme-wordpress-2016": "^0.16.19"
+    },
+    "devDependencies": {
+      "prettier": "^1.19.1"
+    },
+    "homepage": "https://github.com/iamtherealgd/gatsby-starter-22boxes-uno",
+    "keywords": [
+      "gatsby"
+    ],
+    "license": "MIT",
+    "main": "n/a",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/iamtherealgd/gatsby-starter-22boxes-uno.git"
+    },
+    "scripts": {
+      "build": "gatsby build",
+      "develop": "gatsby develop",
+      "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+      "start": "npm run develop",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
