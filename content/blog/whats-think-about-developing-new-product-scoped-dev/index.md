@@ -1,9 +1,9 @@
 ---
-title: "新規プロダクト開発で向き合おうと思っていること(技術編)"
+title: "新規プロダクト開発で向き合おうと思っていること"
 date: "2020-07-13T06:40:32.169Z"
 template: "post"
 draft: true
-slug: "$"
+slug: "whats-think-about-developing-new-product-scoped-dev"
 category: "dialy"
   #"dialy" "development" "tips"
 tags:
@@ -13,7 +13,6 @@ socialImage: "/media/42-line-bible.jpg"
 ---
 
 # motivation
-
 新しくプロダクトを作っていくことになっているのですが、正直不安な面も多く感じています。
 なので、不安の正体は何なのかを突き詰めると同時に、今回作っていくプロダクトについて、どういう方針で作って行こうと思っているのか、残していこうと思います。
 
