@@ -1,8 +1,8 @@
 ---
-title: "良い質問とはなにか？"
+title: "[WIP]良い質問とはなにか？"
 date: "2020-05-30"
 template: "post"
-draft: true
+draft: false
 slug: "what-is-good-question"
 category: "dialy"
 tags:
