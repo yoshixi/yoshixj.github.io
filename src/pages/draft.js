@@ -4,10 +4,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-const BlogIndex = ({ data, location }) => {
+const DraftPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges.filter(
-    edge => (edge.node.frontmatter.template === "post" && edge.node.frontmatter.draft != true) 
+    edge => (edge.node.frontmatter.template === "post" && edge.node.frontmatter.draft === true) 
   )
   console.log(posts)
 
@@ -69,7 +69,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default DraftPage
 
 export const pageQuery = graphql`
   query {
