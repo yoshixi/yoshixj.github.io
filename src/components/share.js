@@ -15,7 +15,7 @@ const Share = ({ location}) => {
 
   return (
     <div className="social-links" style={{ textAlign: "right"}}>
-      <TwitterShareButton url={url} via="@yoshixj">
+      <TwitterShareButton url={url} via="yoshixj">
         <TwitterIcon round size={iconSize} />
       </TwitterShareButton>
       <FacebookShareButton url={url} style={{ marginLeft: '1.2em' }}>
