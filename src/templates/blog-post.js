@@ -46,7 +46,7 @@ class BlogPostTemplate extends React.Component {
             }}
           />
           <footer>
-            <Share location={this.props.location} />
+            <Share location={this.props.location} title={post.frontmatter.title}/>
             <Bio />
           </footer>
         </article>

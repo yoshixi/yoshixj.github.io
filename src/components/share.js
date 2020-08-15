@@ -8,17 +8,17 @@ import {
   LineIcon
 } from "react-share";
 
-const Share = ({ location}) => {
+const Share = ({ location, title}) => {
   const url = location.href;
   // const iconSize = mobile ? 36 : 48;
   const iconSize = 36;
 
   return (
     <div className="social-links" style={{ textAlign: "right"}}>
-      <TwitterShareButton url={url} via="yoshixj">
+      <TwitterShareButton url={url} via="yoshixj" title={title}>
         <TwitterIcon round size={iconSize} />
       </TwitterShareButton>
-      <FacebookShareButton url={url} style={{ marginLeft: '1.2em' }}>
+      <FacebookShareButton title={title} url={url} style={{ marginLeft: '1.2em' }}>
         <FacebookIcon round size={iconSize} />
       </FacebookShareButton>
       <LineShareButton url={url} style={{ marginLeft: '1.2em' }}>
