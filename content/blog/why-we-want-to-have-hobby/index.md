@@ -7,7 +7,7 @@ category: "dialy"
   #"dialy" "development" "tips"
 tags:
   - "blog"
-description: ""
+description: "とある若者は、いった。 「休日にできる、趣味がほしい」 趣味とはなんなのだろうか。"
 socialImage: "/media/42-line-bible.jpg"
 ---
 
@@ -15,7 +15,7 @@ socialImage: "/media/42-line-bible.jpg"
 
 「休日にできる、趣味がほしい」
 
-趣味とはなんなのだろうか。
+その時、ふと僕は趣味とはなんなのだろうかと思ってしまった。
 
 趣味がほしいと思っている人はもしかしたらけっこう多いのかもしれない。
 
