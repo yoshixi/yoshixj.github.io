@@ -24,8 +24,8 @@ function Layout({ location, title, children }) {
           border: `0.5px solid #EEEEEE`,
           borderBottom: `0px`,
           borderRadius: `10px 10px 0px 0px`,
-          paddingLeft: `30px`,
-          paddingRight: `30px`,
+          paddingLeft: `1em`,
+          paddingRight: `1em`,
           paddingTop: `-20px`,
         }}
       >
