@@ -1,8 +1,8 @@
 ---
 title: "新規プロダクト開発で向き合おうと思っていること"
-date: "2020-07-13T06:40:32.169Z"
+date: "2020-08-01T06:40:32.169Z"
 template: "post"
-draft: true
+draft: false
 slug: "whats-think-about-developing-new-product-scoped-dev"
 category: "dialy"
   #"dialy" "development" "tips"
