@@ -5,6 +5,7 @@ template: "post"
 draft: true
 slug: "$"
 category: "rails"
+  #"dialy" "development" "tips"
 tags:
   - "Web Development"
 description: ""
